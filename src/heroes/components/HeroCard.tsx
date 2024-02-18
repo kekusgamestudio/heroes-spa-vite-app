@@ -9,7 +9,7 @@ export const HeroCard = ( {
   superhero,
   publisher,
   alter_ego,
-  first_appearance,
+  first_apparition,
   characters
  } ) => {
   const heroImageUrl = `/assets/heroes/${id}.jpg`;
@@ -33,7 +33,7 @@ export const HeroCard = ( {
                 <p className='card-text'>{ alter_ego }</p>
                 <CaracterByHero alter_ego={alter_ego} characters={characters}  />
                 <p className='card-text'>
-                  <small className='text-muted'>{ first_appearance }</small>
+                  <small className='text-muted'>{ first_apparition }</small>
                 </p>
                 <Link to={`/hero/${ id }`}
                 >

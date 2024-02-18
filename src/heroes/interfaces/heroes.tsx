@@ -3,7 +3,7 @@ export interface iHeroes {
   superhero: string;
   publisher: string;
   alter_ego: string;
-  first_appearance: string;
+  first_apparition: string;
   characters: string;
 }
 
