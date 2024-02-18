@@ -1,6 +1,8 @@
+import { HeroContainer } from '../components';
 
 export const MarvelPage = () => {
+  const title = 'Marvel Comics';
   return (
-    <h1>Marvel Page</h1>
+    <HeroContainer publisher={ title } />
   )
 }
