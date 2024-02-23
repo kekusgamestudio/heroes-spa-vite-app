@@ -1,4 +1,4 @@
 import { createContext } from 'react';
 
-export const AuthContext = createContext({} as never);
+export const AuthContext = createContext({});
 
